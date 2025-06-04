@@ -1,6 +1,8 @@
 import jwt from "jsonwebtoken";
 
+// middleware to authenticate requests using JWT
 const auth = (req, res, next) => {
+  // checks for a valid JWT token in the Authorization header
   const token = req.header("Authorization")?.split(" ")[1];
   if (!token) return res.status(401).json({ msg: "No token" });
 
@@ -13,4 +15,4 @@ const auth = (req, res, next) => {
   }
 };
 
-module.exports = auth;
+export default auth;

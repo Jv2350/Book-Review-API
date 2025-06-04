@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+// MongoDB connection configuration using Mongoose
+
 // function to connect to MongoDB
 const connectDB = async () => {
   try {
