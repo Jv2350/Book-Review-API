@@ -123,6 +123,17 @@ For proper testing, use the public Postman collection:
 
 ---
 
+## Live Demo
+
+You can directly test the deployed Book Review API backend at:
+
+**API Base URL:** [https://book-review-api-d5yk.onrender.com](https://book-review-api-d5yk.onrender.com)
+
+- All endpoints are available under `/api`, e.g. `https://book-review-api-d5yk.onrender.com/api/books`.
+- You can use this URL with Postman, curl, or your own frontend.
+
+---
+
 ## Database Schema
 
 See [`DB_SCHEMA.md`](./DB_SCHEMA.md) for a detailed schema and ER diagram.
@@ -162,7 +173,7 @@ See [`DB_SCHEMA.md`](./DB_SCHEMA.md) for a detailed schema and ER diagram.
 
 ## Frontend (Optional)
 
-A simple React-based frontend is included in the `frontend/` directory. This frontend was generated with the help of ChatGPT and is provided for convenience if you want to interact with the Book Review API visually. 
+A simple React-based frontend is included in the `frontend/` directory. This frontend was generated with the help of ChatGPT and is provided for convenience if you want to interact with the Book Review API visually.
 
 ### To run the frontend locally:
 
